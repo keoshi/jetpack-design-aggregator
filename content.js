@@ -18,7 +18,7 @@ function aggregateData() {
 		authors: new Set()
 	};
 
-	const authorWhitelist = [
+	const authorAllowList = [
 		'ballio2000',
 		'cbusquets1989', 
 		'ederrengifo',
@@ -89,7 +89,7 @@ function aggregateData() {
 			author = authorClass.replace('author-', '');
 		}
 		
-		if (author && authorWhitelist.includes(author)) {
+		if (author && authorAllowList.includes(author)) {
 			data.authors.add(author);
 			postData.author = author;
 			

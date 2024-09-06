@@ -17,5 +17,5 @@ A Chrome extension that simplifies the process of gathering curated content from
 Simplify your design content curation process with Jetpack Design Aggregator!
 
 ### Customization:
-- Edit the `p2-design-aggregator.js` file to add or remove authors
-- Adjust the `filterPostsByAuthor` function to customize filtering criteria
+- Edit the `authorAllowList` array to customize the list of authors to include in the output
+- Edit the `formatDataForMarkdown` function to customize the output format
