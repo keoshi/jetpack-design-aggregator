@@ -115,12 +115,14 @@ function formatDataForMarkdown(data) {
 	
 	output += "### Snaps\n";
 	data.snaps.forEach(snap => {
-		output += `- ${snap.markdownLink}${snap.author ? ` (by ${snap.author})` : ''}\n`;
+		//output += `- ${snap.markdownLink}${snap.author ? ` (by ${snap.author})` : ''}\n`;
+		output += `- ${snap.markdownLink}\n`;
 	});
 	
 	output += "\n### Others\n";
 	data.others.forEach(other => {
-		output += `- ${other.markdownLink}${other.author ? ` (by ${other.author})` : ''}\n`;
+		//output += `- ${other.markdownLink}${other.author ? ` (by ${other.author})` : ''}\n`;
+		output += `- ${other.markdownLink}\n`;
 	});
 	
 	output += "\n### Authors\n";
