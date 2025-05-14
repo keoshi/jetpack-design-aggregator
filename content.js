@@ -19,14 +19,18 @@ function aggregateData() {
 	};
 
 	const authorAllowList = [
-		'ballio2000',
-		'cbusquets1989', 
 		'ederrengifo',
-		'eeeeevon',
 		'ilonagl',
 		'keoshi',
 		'noamalmos', 
-		'sanjagrbic'
+		'sanjagrbic',
+		'gusarn'
+		
+		// No longer on JP
+		//'ballio2000',
+		//'cbusquets1989',
+		//'eeeeevon',
+		//'mattantwest',
 	];
 	
 	const posts = document.querySelectorAll('.o2-posts article');
